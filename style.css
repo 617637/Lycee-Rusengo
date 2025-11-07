@@ -1,0 +1,126 @@
+#photo{
+background:fixed;
+text-align:center;
+width:500;
+height:400;
+}
+
+
+#picture{
+   text-align: left;
+    font-size: 0.9em;
+    color:purple;
+    margin-top: 0px;
+}
+#moreon{
+    background-color:red;
+}
+#myname{
+    size: 800px;
+}
+
+#moreon{
+    text-align: right;
+}
+
+.Language{
+    background-color: coral;
+    padding: 3px;
+    margin-right: 950px;
+    margin-left: 150px;
+}
+
+.Soft{
+    background-color: coral;
+    padding: 3px;
+    margin-right: 850px;
+    margin-left: 150px;
+}
+
+#contact{
+   border: 2px solid red; 
+   text-align: left;
+   border-radius: 10px;
+   background-color:rgb(4, 247, 198); 
+   margin-right: 700px;  
+   scroll-margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left:15%;
+    gap: 30px;
+
+}
+.container>p>a{
+    padding:0 20px;
+    color: #eeff00;
+}
+h1{
+    text-align:center;
+}
+.flex {
+    background-color: rgb(2, 3, 28);
+    color: rgb(252, 255, 240);
+
+}
+#aboume{
+    background-color: yellowgreen;
+    padding: 0px 0px;
+    margin-right: 20%;
+}
+
+#Myobjective{
+    background-color: aquamarine;
+}
+.contain{
+    position:static ; top: 0;
+    left: 100%;
+    width: 89%;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: right;
+    gap: 100px;
+    padding: 15px 20px;
+    margin-left: 2%;
+    background-color: #de0a82;
+    text-align: right;
+}
+.contain a{
+     color: #FFD700;
+    transition: color 0.3s;
+    
+}
+
+#home {
+    position:static ; top: 0;
+    left: 100%;
+    right: 10%;
+    width: 90%;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: right;
+    gap: 100px;
+    padding: 15px 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #004499;
+    color: white;
+}
+
+#home h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#home a {
+    color: #FFD700;
+    transition: color 0.3s;
+}
+
+
