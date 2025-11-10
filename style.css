@@ -76,9 +76,10 @@ h1{
 }
 
 #home {
-    position:static ; top: 0;
-    left: 100%;
+   position:sticky ; top: 0;
+    left: 2%;
     right: 10%;
+    height: 40px;
     width: 90%;
     z-index: 100;
     display: flex;
@@ -90,7 +91,7 @@ h1{
     margin-left: 2%;
     margin-right: 2%;
     background-color: #004499;
-    color: white;
+    color: rgb(219, 213, 213);
 }
 
 #home h2 {
@@ -102,6 +103,7 @@ h1{
     color: #FFD700;
     transition: color 0.3s;
 }
+
 
 
 
